@@ -9,13 +9,30 @@
 /* Begin PBXBuildFile section */
 		1A0F840B2D98EE5A00C12211 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F840A2D98EE5A00C12211 /* AppDelegate.swift */; };
 		1A0F840D2D98EE5A00C12211 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F840C2D98EE5A00C12211 /* SceneDelegate.swift */; };
-		1A0F840F2D98EE5A00C12211 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F840E2D98EE5A00C12211 /* ViewController.swift */; };
-		1A0F84122D98EE5A00C12211 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F84112D98EE5A00C12211 /* Base */; };
 		1A0F84142D98EE6000C12211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F84132D98EE6000C12211 /* Assets.xcassets */; };
 		1A0F84172D98EE6000C12211 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1A0F84162D98EE6000C12211 /* Base */; };
 		1A0F84222D98EE6100C12211 /* CUBEInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84212D98EE6100C12211 /* CUBEInterviewTests.swift */; };
 		1A0F842C2D98EE6100C12211 /* CUBEInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F842B2D98EE6100C12211 /* CUBEInterviewUITests.swift */; };
 		1A0F842E2D98EE6100C12211 /* CUBEInterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F842D2D98EE6100C12211 /* CUBEInterviewUITestsLaunchTests.swift */; };
+		1A0F84402D98F26100C12211 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F843F2D98F26100C12211 /* MainTabBarViewController.swift */; };
+		1A0F84422D98F31000C12211 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84412D98F31000C12211 /* MoneyViewController.swift */; };
+		1A0F84442D98F32600C12211 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84432D98F32600C12211 /* FriendsViewController.swift */; };
+		1A0F84462D98F33D00C12211 /* MoneyRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84452D98F33D00C12211 /* MoneyRecordsViewController.swift */; };
+		1A0F84482D98F34800C12211 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84472D98F34800C12211 /* SettingViewController.swift */; };
+		1A0F844F2D9926D600C12211 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F844E2D9926D600C12211 /* UserInfoModel.swift */; };
+		1A0F84552D992D5400C12211 /* FriendsUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84542D992D5400C12211 /* FriendsUserInfoView.swift */; };
+		1A0F845A2D99348700C12211 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84592D99348700C12211 /* Utility.swift */; };
+		1A0F845C2D99363E00C12211 /* FriendsListStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F845B2D99363E00C12211 /* FriendsListStateView.swift */; };
+		1A94F59C2D9946470022E1EC /* FriendSearchAndAddFriendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F59B2D9946470022E1EC /* FriendSearchAndAddFriendView.swift */; };
+		1A94F59E2D994E450022E1EC /* FriendsListNoneDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F59D2D994E450022E1EC /* FriendsListNoneDataView.swift */; };
+		1A94F5A02D99522C0022E1EC /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F59F2D99522C0022E1EC /* GradientView.swift */; };
+		1A94F5A22D9966BE0022E1EC /* FriendListResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F5A12D9966BE0022E1EC /* FriendListResultModel.swift */; };
+		1A94F5A42D9975890022E1EC /* FriendsListCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F5A32D9975890022E1EC /* FriendsListCellViewModel.swift */; };
+		1A94F5A62D9985200022E1EC /* FriendsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F5A52D9985200022E1EC /* FriendsListTableViewCell.swift */; };
+		1A94F5AA2D99A6180022E1EC /* FriendsListInviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F5A92D99A6180022E1EC /* FriendsListInviteView.swift */; };
+		1A94F5AC2D9AED3C0022E1EC /* FriendsListInviteContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F5AB2D9AED3C0022E1EC /* FriendsListInviteContentView.swift */; };
+		1A94F5B02D9AFA470022E1EC /* FriendSearchAndFriendInviteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F5AF2D9AFA470022E1EC /* FriendSearchAndFriendInviteView.swift */; };
+		1A94F5B22D9D80B00022E1EC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94F5B12D9D80B00022E1EC /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +56,6 @@
 		1A0F84072D98EE5A00C12211 /* CUBEInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CUBEInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F840A2D98EE5A00C12211 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A0F840C2D98EE5A00C12211 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A0F840E2D98EE5A00C12211 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A0F84112D98EE5A00C12211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A0F84132D98EE6000C12211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A0F84162D98EE6000C12211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A0F84182D98EE6000C12211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,25 @@
 		1A0F84272D98EE6100C12211 /* CUBEInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CUBEInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0F842B2D98EE6100C12211 /* CUBEInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBEInterviewUITests.swift; sourceTree = "<group>"; };
 		1A0F842D2D98EE6100C12211 /* CUBEInterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBEInterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A0F843F2D98F26100C12211 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		1A0F84412D98F31000C12211 /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
+		1A0F84432D98F32600C12211 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		1A0F84452D98F33D00C12211 /* MoneyRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyRecordsViewController.swift; sourceTree = "<group>"; };
+		1A0F84472D98F34800C12211 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1A0F844E2D9926D600C12211 /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		1A0F84542D992D5400C12211 /* FriendsUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsUserInfoView.swift; sourceTree = "<group>"; };
+		1A0F84592D99348700C12211 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		1A0F845B2D99363E00C12211 /* FriendsListStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListStateView.swift; sourceTree = "<group>"; };
+		1A94F59B2D9946470022E1EC /* FriendSearchAndAddFriendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSearchAndAddFriendView.swift; sourceTree = "<group>"; };
+		1A94F59D2D994E450022E1EC /* FriendsListNoneDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListNoneDataView.swift; sourceTree = "<group>"; };
+		1A94F59F2D99522C0022E1EC /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		1A94F5A12D9966BE0022E1EC /* FriendListResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListResultModel.swift; sourceTree = "<group>"; };
+		1A94F5A32D9975890022E1EC /* FriendsListCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListCellViewModel.swift; sourceTree = "<group>"; };
+		1A94F5A52D9985200022E1EC /* FriendsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListTableViewCell.swift; sourceTree = "<group>"; };
+		1A94F5A92D99A6180022E1EC /* FriendsListInviteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListInviteView.swift; sourceTree = "<group>"; };
+		1A94F5AB2D9AED3C0022E1EC /* FriendsListInviteContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsListInviteContentView.swift; sourceTree = "<group>"; };
+		1A94F5AF2D9AFA470022E1EC /* FriendSearchAndFriendInviteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSearchAndFriendInviteView.swift; sourceTree = "<group>"; };
+		1A94F5B12D9D80B00022E1EC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +133,12 @@
 		1A0F84092D98EE5A00C12211 /* CUBEInterview */ = {
 			isa = PBXGroup;
 			children = (
-				1A0F840A2D98EE5A00C12211 /* AppDelegate.swift */,
-				1A0F840C2D98EE5A00C12211 /* SceneDelegate.swift */,
-				1A0F840E2D98EE5A00C12211 /* ViewController.swift */,
-				1A0F84102D98EE5A00C12211 /* Main.storyboard */,
-				1A0F84132D98EE6000C12211 /* Assets.xcassets */,
-				1A0F84152D98EE6000C12211 /* LaunchScreen.storyboard */,
 				1A0F84182D98EE6000C12211 /* Info.plist */,
+				1A0F84582D99347800C12211 /* Utility */,
+				1A0F844D2D9925E500C12211 /* Supporting */,
+				1A0F843C2D98EEF400C12211 /* ViewModels */,
+				1A0F843B2D98EEEF00C12211 /* Models */,
+				1A0F843A2D98EEE200C12211 /* Views */,
 			);
 			path = CUBEInterview;
 			sourceTree = "<group>";
@@ -125,6 +158,80 @@
 				1A0F842D2D98EE6100C12211 /* CUBEInterviewUITestsLaunchTests.swift */,
 			);
 			path = CUBEInterviewUITests;
+			sourceTree = "<group>";
+		};
+		1A0F843A2D98EEE200C12211 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F84572D992D6100C12211 /* ViewControllers */,
+				1A0F84562D992D5900C12211 /* Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A0F843B2D98EEEF00C12211 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F844E2D9926D600C12211 /* UserInfoModel.swift */,
+				1A94F5A12D9966BE0022E1EC /* FriendListResultModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A0F843C2D98EEF400C12211 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1A94F5A32D9975890022E1EC /* FriendsListCellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1A0F844D2D9925E500C12211 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F840A2D98EE5A00C12211 /* AppDelegate.swift */,
+				1A0F840C2D98EE5A00C12211 /* SceneDelegate.swift */,
+				1A0F84132D98EE6000C12211 /* Assets.xcassets */,
+				1A0F84152D98EE6000C12211 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		1A0F84562D992D5900C12211 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F84542D992D5400C12211 /* FriendsUserInfoView.swift */,
+				1A0F845B2D99363E00C12211 /* FriendsListStateView.swift */,
+				1A94F59B2D9946470022E1EC /* FriendSearchAndAddFriendView.swift */,
+				1A94F59D2D994E450022E1EC /* FriendsListNoneDataView.swift */,
+				1A94F59F2D99522C0022E1EC /* GradientView.swift */,
+				1A94F5A52D9985200022E1EC /* FriendsListTableViewCell.swift */,
+				1A94F5A92D99A6180022E1EC /* FriendsListInviteView.swift */,
+				1A94F5AB2D9AED3C0022E1EC /* FriendsListInviteContentView.swift */,
+				1A94F5AF2D9AFA470022E1EC /* FriendSearchAndFriendInviteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1A0F84572D992D6100C12211 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F843F2D98F26100C12211 /* MainTabBarViewController.swift */,
+				1A0F84412D98F31000C12211 /* MoneyViewController.swift */,
+				1A0F84432D98F32600C12211 /* FriendsViewController.swift */,
+				1A0F84452D98F33D00C12211 /* MoneyRecordsViewController.swift */,
+				1A0F84472D98F34800C12211 /* SettingViewController.swift */,
+				1A94F5B12D9D80B00022E1EC /* OnboardingViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1A0F84582D99347800C12211 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1A0F84592D99348700C12211 /* Utility.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +340,6 @@
 			files = (
 				1A0F84142D98EE6000C12211 /* Assets.xcassets in Resources */,
 				1A0F84172D98EE6000C12211 /* Base in Resources */,
-				1A0F84122D98EE5A00C12211 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +364,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A0F840F2D98EE5A00C12211 /* ViewController.swift in Sources */,
+				1A0F84402D98F26100C12211 /* MainTabBarViewController.swift in Sources */,
+				1A0F84442D98F32600C12211 /* FriendsViewController.swift in Sources */,
+				1A94F5A62D9985200022E1EC /* FriendsListTableViewCell.swift in Sources */,
+				1A94F5A22D9966BE0022E1EC /* FriendListResultModel.swift in Sources */,
+				1A94F5B22D9D80B00022E1EC /* OnboardingViewController.swift in Sources */,
+				1A0F844F2D9926D600C12211 /* UserInfoModel.swift in Sources */,
 				1A0F840B2D98EE5A00C12211 /* AppDelegate.swift in Sources */,
 				1A0F840D2D98EE5A00C12211 /* SceneDelegate.swift in Sources */,
+				1A94F5A02D99522C0022E1EC /* GradientView.swift in Sources */,
+				1A94F5AC2D9AED3C0022E1EC /* FriendsListInviteContentView.swift in Sources */,
+				1A94F59C2D9946470022E1EC /* FriendSearchAndAddFriendView.swift in Sources */,
+				1A94F5A42D9975890022E1EC /* FriendsListCellViewModel.swift in Sources */,
+				1A0F84462D98F33D00C12211 /* MoneyRecordsViewController.swift in Sources */,
+				1A94F5B02D9AFA470022E1EC /* FriendSearchAndFriendInviteView.swift in Sources */,
+				1A0F84482D98F34800C12211 /* SettingViewController.swift in Sources */,
+				1A0F845A2D99348700C12211 /* Utility.swift in Sources */,
+				1A94F59E2D994E450022E1EC /* FriendsListNoneDataView.swift in Sources */,
+				1A0F84422D98F31000C12211 /* MoneyViewController.swift in Sources */,
+				1A0F84552D992D5400C12211 /* FriendsUserInfoView.swift in Sources */,
+				1A0F845C2D99363E00C12211 /* FriendsListStateView.swift in Sources */,
+				1A94F5AA2D99A6180022E1EC /* FriendsListInviteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +421,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1A0F84102D98EE5A00C12211 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A0F84112D98EE5A00C12211 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A0F84152D98EE6000C12211 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,13 +558,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56ZY57M7UR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CUBEInterview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,13 +586,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56ZY57M7UR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CUBEInterview/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

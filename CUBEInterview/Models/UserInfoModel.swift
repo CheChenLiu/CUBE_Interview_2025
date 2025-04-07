@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct UserInfoModel: Codable {
+    let name: String
+    let kokoid: String
+}

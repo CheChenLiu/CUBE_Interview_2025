@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct FriendListResultModel: Codable {
+    var name: String
+    var status: Int
+    var isTop: String
+    var fid: String
+    var updateDate: String
+}

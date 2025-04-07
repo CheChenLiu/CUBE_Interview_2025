@@ -10,9 +10,10 @@ import UIKit
 class MainTabBarController: UITabBarController {
     lazy var topLineView: UIView = {
        let view = UIView()
-        view.backgroundColor = .lightGray
+        view.backgroundColor = .grayEFEFEF
         return view
     }()
+    
     let centerButton = UIButton()
 
     override func viewDidLoad() {
@@ -27,7 +28,7 @@ class MainTabBarController: UITabBarController {
     private func setupTabBar() {
         let moneyVC = MoneyViewController()
         let friendsVC = FriendsViewController()
-        let kokoVC = UIViewController() // 這個不會真的顯示，只是作為中間按鈕
+        let kokoVC = UIViewController()
         let recordsVC = MoneyRecordsViewController()
         let settingsVC = SettingViewController()
         
@@ -44,7 +45,7 @@ class MainTabBarController: UITabBarController {
                                              selectedImage: UIImage(named: "icTabbarFriendsOn"))
         kokoVC.tabBarItem = UITabBarItem(title: "",
                                          image: nil,
-                                         selectedImage: nil) // 中間按鈕，隱藏標題
+                                         selectedImage: nil)
         recordsNav.tabBarItem = UITabBarItem(title: "記帳",
                                              image: UIImage(named: "icTabbarManageOff"),
                                              selectedImage: UIImage(named: "icTabbarManageOff"))
@@ -54,7 +55,7 @@ class MainTabBarController: UITabBarController {
 
         viewControllers = [moneyNav, friendsNav, kokoVC, recordsNav, settingsNav]
 
-        tabBar.tintColor = UIColor.systemPink
+        tabBar.tintColor = UIColor.pinkEC008C
         tabBar.unselectedItemTintColor = .lightGray
         tabBar.backgroundColor = .white
     }
@@ -85,7 +86,7 @@ class MainTabBarController: UITabBarController {
         NSLayoutConstraint(item: centerButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 85).isActive = true
         NSLayoutConstraint(item: centerButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .notAnAttribute, multiplier: 1.0, constant: 68).isActive = true
         NSLayoutConstraint(item: centerButton, attribute: .centerX, relatedBy: .equal, toItem: tabBar, attribute: .centerX, multiplier: 1.0, constant: 0).isActive = true
-        NSLayoutConstraint(item: centerButton, attribute: .top, relatedBy: .equal, toItem: tabBar, attribute: .top, multiplier: 1.0, constant: -11).isActive = true
+        NSLayoutConstraint(item: centerButton, attribute: .top, relatedBy: .equal, toItem: tabBar, attribute: .top, multiplier: 1.0, constant: -13).isActive = true
         
         centerButton.addTarget(self, action: #selector(centerButtonTapped), for: .touchUpInside)
         centerButton.adjustsImageWhenHighlighted = false
@@ -93,6 +94,6 @@ class MainTabBarController: UITabBarController {
 
     @objc private func centerButtonTapped() {
         print("KOKO 按鈕被點擊！")
-        selectedIndex = 2 // 點擊後切換到 KOKO 頁面
+        selectedIndex = 2 // 點擊後切換到KOKO
     }
 }
