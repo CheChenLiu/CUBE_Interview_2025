@@ -26,14 +26,15 @@ class MainTabBarController: UITabBarController {
     }
 
     private func setupTabBar() {
-        let moneyVC = MoneyViewController()
+        let moneyVC = UIViewController()
         let friendsVC = FriendsViewController()
         let kokoVC = UIViewController()
-        let recordsVC = MoneyRecordsViewController()
-        let settingsVC = SettingViewController()
+        let recordsVC = UIViewController()
+        let settingsVC = UIViewController()
         
         let moneyNav = UINavigationController(rootViewController: moneyVC)
         let friendsNav = UINavigationController(rootViewController: friendsVC)
+        let kokoNav = UINavigationController(rootViewController: kokoVC)
         let recordsNav = UINavigationController(rootViewController: recordsVC)
         let settingsNav = UINavigationController(rootViewController: settingsVC)
 
@@ -53,7 +54,7 @@ class MainTabBarController: UITabBarController {
                                               image: UIImage(named: "icTabbarSettingOff"),
                                               selectedImage: UIImage(named: "icTabbarSettingOff"))
 
-        viewControllers = [moneyNav, friendsNav, kokoVC, recordsNav, settingsNav]
+        viewControllers = [moneyNav, friendsNav, kokoNav, recordsNav, settingsNav]
 
         tabBar.tintColor = UIColor.pinkEC008C
         tabBar.unselectedItemTintColor = .lightGray

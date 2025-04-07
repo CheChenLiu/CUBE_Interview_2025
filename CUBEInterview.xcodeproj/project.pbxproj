@@ -15,10 +15,7 @@
 		1A0F842C2D98EE6100C12211 /* CUBEInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F842B2D98EE6100C12211 /* CUBEInterviewUITests.swift */; };
 		1A0F842E2D98EE6100C12211 /* CUBEInterviewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F842D2D98EE6100C12211 /* CUBEInterviewUITestsLaunchTests.swift */; };
 		1A0F84402D98F26100C12211 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F843F2D98F26100C12211 /* MainTabBarViewController.swift */; };
-		1A0F84422D98F31000C12211 /* MoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84412D98F31000C12211 /* MoneyViewController.swift */; };
 		1A0F84442D98F32600C12211 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84432D98F32600C12211 /* FriendsViewController.swift */; };
-		1A0F84462D98F33D00C12211 /* MoneyRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84452D98F33D00C12211 /* MoneyRecordsViewController.swift */; };
-		1A0F84482D98F34800C12211 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84472D98F34800C12211 /* SettingViewController.swift */; };
 		1A0F844F2D9926D600C12211 /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F844E2D9926D600C12211 /* UserInfoModel.swift */; };
 		1A0F84552D992D5400C12211 /* FriendsUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84542D992D5400C12211 /* FriendsUserInfoView.swift */; };
 		1A0F845A2D99348700C12211 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0F84592D99348700C12211 /* Utility.swift */; };
@@ -65,10 +62,7 @@
 		1A0F842B2D98EE6100C12211 /* CUBEInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBEInterviewUITests.swift; sourceTree = "<group>"; };
 		1A0F842D2D98EE6100C12211 /* CUBEInterviewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CUBEInterviewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1A0F843F2D98F26100C12211 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
-		1A0F84412D98F31000C12211 /* MoneyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyViewController.swift; sourceTree = "<group>"; };
 		1A0F84432D98F32600C12211 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
-		1A0F84452D98F33D00C12211 /* MoneyRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyRecordsViewController.swift; sourceTree = "<group>"; };
-		1A0F84472D98F34800C12211 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		1A0F844E2D9926D600C12211 /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
 		1A0F84542D992D5400C12211 /* FriendsUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsUserInfoView.swift; sourceTree = "<group>"; };
 		1A0F84592D99348700C12211 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
@@ -217,10 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				1A0F843F2D98F26100C12211 /* MainTabBarViewController.swift */,
-				1A0F84412D98F31000C12211 /* MoneyViewController.swift */,
 				1A0F84432D98F32600C12211 /* FriendsViewController.swift */,
-				1A0F84452D98F33D00C12211 /* MoneyRecordsViewController.swift */,
-				1A0F84472D98F34800C12211 /* SettingViewController.swift */,
 				1A94F5B12D9D80B00022E1EC /* OnboardingViewController.swift */,
 			);
 			path = ViewControllers;
@@ -376,12 +367,9 @@
 				1A94F5AC2D9AED3C0022E1EC /* FriendsListInviteContentView.swift in Sources */,
 				1A94F59C2D9946470022E1EC /* FriendSearchAndAddFriendView.swift in Sources */,
 				1A94F5A42D9975890022E1EC /* FriendsListCellViewModel.swift in Sources */,
-				1A0F84462D98F33D00C12211 /* MoneyRecordsViewController.swift in Sources */,
 				1A94F5B02D9AFA470022E1EC /* FriendSearchAndFriendInviteView.swift in Sources */,
-				1A0F84482D98F34800C12211 /* SettingViewController.swift in Sources */,
 				1A0F845A2D99348700C12211 /* Utility.swift in Sources */,
 				1A94F59E2D994E450022E1EC /* FriendsListNoneDataView.swift in Sources */,
-				1A0F84422D98F31000C12211 /* MoneyViewController.swift in Sources */,
 				1A0F84552D992D5400C12211 /* FriendsUserInfoView.swift in Sources */,
 				1A0F845C2D99363E00C12211 /* FriendsListStateView.swift in Sources */,
 				1A94F5AA2D99A6180022E1EC /* FriendsListInviteView.swift in Sources */,
